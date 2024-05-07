@@ -33,6 +33,7 @@
       <select id="Nationality" name="Nationality" required>
         <option value="Choose">Choose</option>
         <option value="Indo">Indonesia</option>
+        <option value="inggris">English</option>
       </select>
 
       <br /><br />
@@ -43,6 +44,12 @@
           <input type="checkbox" id="bahasa1" name="bahasa[]" value="Indonesia" required />
           Indonesia </label
         ><br />
+        <label for="bahasa2">
+          <input type="checkbox" id="bahasa2" name="bahasa[]" value="Inggris" required />
+          Inggris </label
+        ><br />
+        
+        <br />
       </div>
 
       <label for="bio"> <strong>Bio</strong></label>
